@@ -48,3 +48,12 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+**innan värden:**
+api: 333MB
+client: 539MB
+
+**Efter värden:**
+api: 333MB
+client: 73.8MB
+nginx: 74.5MB
