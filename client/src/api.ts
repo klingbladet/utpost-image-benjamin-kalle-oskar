@@ -1,6 +1,4 @@
-// Relativ adress: browsern frågar samma server som skickade sidan. I containern är det nginx
-// (client/nginx.conf), i utveckling Vites dev-server (proxy i vite.config.js). Båda skickar vidare till API:et.
-export const API_URL = '/api'
+export const API_URL = 'http://localhost:4000/api'
 
 // Generisk: anroparen säger vilken typ svaret har – `get<Guide[]>('/guides')`.
 // Typen kommer från @utpost/shared, samma fil som API:et använder.
